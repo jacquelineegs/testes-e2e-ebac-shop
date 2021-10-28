@@ -7,12 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
-    "cy:dashboard": "",
-    "cy:report": ""
+    "cy:report": "cypress run --record --key 465c90ae-abdf-4472-9172-becabfb7aadd"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/jacquelineegs/testes-e2e-ebac-shop"
   },
   "keywords": [],
   "author": "",
