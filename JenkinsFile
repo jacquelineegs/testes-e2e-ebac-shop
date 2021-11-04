@@ -7,7 +7,7 @@ pipeline {
             git branch: 'main', url: 'https://github.com/jacquelineegs/testes-e2e-ebac-shop.git'
             }
         }
-        stage('Instalr dependencias') {
+        stage('Instalar dependencias') {
             steps {
             sh 'npm install'
             }
